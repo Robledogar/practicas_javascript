@@ -326,8 +326,38 @@
 /*------------------------------------------------------ */
                         // MODULOS
 /*------------------------------------------------------ */
-// import { suma, PI, persona } from '/modulo.js';
+import { suma, PI, persona, elegirElementoAlAzar } from '/modulo.js';
 
 // console.log(suma(5, 3));
 // console.log(PI);
 // console.log(persona);
+
+const nombresDePersonajes = [
+    "Harry Potter",
+    "Frodo Baggins",
+    "Luke Skywalker",
+    "Hermione Granger",
+    "Aragorn",
+    "Darth Vader",
+    "Bilbo Baggins",
+    "Princesa Leia",
+    "Gandalf",
+    "Jon Snow",
+    "Hannibal Lecter",
+    "Katniss Everdeen",
+    "Sherlock Holmes",
+    "Wonder Woman",
+    "Indiana Jones",
+    "Daenerys Targaryen",
+    "Lara Croft",
+    "James Bond",
+    "Elsa",
+    "Spider-Man",
+    "Mickey Mouse",
+    "Superman",
+    "Captain Jack Sparrow",
+    "Winnie the Pooh",
+    "Dora the Explorer"
+  ];
+
+  elegirElementoAlAzar(nombresDePersonajes);

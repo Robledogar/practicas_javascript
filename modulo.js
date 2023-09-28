@@ -12,4 +12,14 @@ const persona = {
     edad: 30
 };
 
-export {suma, PI, persona};
+// Función para elegir al azar un elemento de un array
+    function elegirElementoAlAzar(array) {
+        // Generar un índice aleatorio dentro del rango del array
+        const indiceAleatorio = Math.floor(Math.random() * array.length);
+    
+        // Devolver el elemento correspondiente al índice aleatorio
+        // return array[indiceAleatorio];
+        console.log(array[indiceAleatorio])
+    }
+
+export {suma, PI, persona, elegirElementoAlAzar};
