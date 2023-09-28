@@ -320,3 +320,14 @@
 // const suma = numeros.reduce((total, numero) => total + numero, 0); 
 
 // console.log(suma)
+
+
+
+/*------------------------------------------------------ */
+                        // MODULOS
+/*------------------------------------------------------ */
+// import { suma, PI, persona } from '/modulo.js';
+
+// console.log(suma(5, 3));
+// console.log(PI);
+// console.log(persona);
